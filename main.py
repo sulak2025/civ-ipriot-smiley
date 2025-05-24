@@ -5,15 +5,51 @@ That is, delete the sense_hat.py file that is included in this bundle."""
 import time
 
 from happy import Happy
+from sad import Sad 
+from angry import Angry
 
-def main():
-    smiley = Happy()
+# def main():
+#     smiley = Happy()
+#     smiley.show()
+#     time.sleep(1)
+
+#     smiley.blink()
+
+# if __name__ == '__main__':
+#     ############################################################
+#     # Uncomment the lines below only if you have multi-processing issues
+#     # from multiprocessing import freeze_support
+#     # freeze_support()
+#     ############################################################
+#     main()
+
+# def main_sad():
+    
+#     smiley = Sad()
+
+#     smiley.show()
+
+#     time.sleep(0.25)
+#     while True:
+#         smiley.blink()
+
+# if __name__ == '__main__':
+#     ############################################################
+#     # Uncomment the lines below only if you have multi-processing issues
+#     # from multiprocessing import freeze_support
+#     # freeze_support()
+#     ############################################################
+#     # main()
+#     main_sad()
+
+def main_angry():
+    smiley = Angry()
 
     smiley.show()
 
-    time.sleep(1)
-
-    smiley.blink()
+    # time.sleep(0.25)
+    # while True:
+    #     smiley.blink()
 
 if __name__ == '__main__':
     ############################################################
@@ -21,5 +57,6 @@ if __name__ == '__main__':
     # from multiprocessing import freeze_support
     # freeze_support()
     ############################################################
-    main()
+    # main()
+    main_angry()
 
